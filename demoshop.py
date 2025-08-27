@@ -72,8 +72,8 @@ products = [
      "image": "https://drive.google.com/file/d/1hZ2skulhj5YB1EOV1ElcAQG9bRe-m8Ta/view?usp=drive_link"},
     {"id": 4, "name": "Áo ba lỗ",   "price": 450000,
      "image": "https://drive.google.com/file/d/1tfyYp_9L2GU5zUh3w_GSvfcpa_hNlJUk/view?usp=drive_link"},
-    {"id": 5 "name" : Áo gòn",       "price" : 600000,
-     "image": https://drive.google.com/file/d/144OpPO0kfqMUUuNga8LJIFwqnNlYQMQG/view?usp=drive_link"}
+    {"id": 5 "name" : "Áo gòn",       "price" : 600000,
+     "image": "https://drive.google.com/file/d/144OpPO0kfqMUUuNga8LJIFwqnNlYQMQG/view?usp=drive_link"}
 ]
 
 ADMIN_USER = "admin"
@@ -301,5 +301,6 @@ elif menu == "📋 Quản lý đơn hàng":
                     with c3:
                         if st.button(f"🧾 In/Export #{o['id']}", key=f"adm_export_{o['id']}"):
                             st.info("Demo: chỗ này có thể xuất PDF/CSV về sau.")
+
 
 
