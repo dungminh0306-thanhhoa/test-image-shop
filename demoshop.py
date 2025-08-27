@@ -64,9 +64,9 @@ def order_total(order):
 # Dữ liệu mẫu
 # ==============================
 products = [
-    {"id": 1, "name": "Áo thun",   "price": 120000,
+    {"id": 1, "name": "Quần bơi",   "price": 120000,
      "image": "https://drive.google.com/file/d/1s6sJALOs2IxX5f9nqa4Tf8zut_U9KE3O/view?usp=drive_link"},
-    {"id": 2, "name": "Khẩu trang", "price": 250000,
+    {"id": 2, "name": "Quần sịp", "price": 250000,
      "image": "https://drive.google.com/file/d/1UpNF_Fd5gWbrtEliUbD7KDRilpcnQK3H/view?usp=drive_link"},
     {"id": 3, "name": "Áo khoác",  "price": 350000,
      "image": "https://drive.google.com/file/d/1hZ2skulhj5YB1EOV1ElcAQG9bRe-m8Ta/view?usp=drive_link"},
@@ -301,6 +301,7 @@ elif menu == "📋 Quản lý đơn hàng":
                     with c3:
                         if st.button(f"🧾 In/Export #{o['id']}", key=f"adm_export_{o['id']}"):
                             st.info("Demo: chỗ này có thể xuất PDF/CSV về sau.")
+
 
 
 
