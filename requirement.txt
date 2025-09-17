@@ -1,7 +1,7 @@
 streamlit
 gspread
-oauth2client
 google-auth
+oauth2client
 pandas
 requests
 pillow
